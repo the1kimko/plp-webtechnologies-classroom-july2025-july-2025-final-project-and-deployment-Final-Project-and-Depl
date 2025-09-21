@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LitShelf - Books</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>LitShelf</h1>
+      <div class="menu-toggle">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html" class="active">Books</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="books">
+      <h2>Our Collection</h2>
+      <div class="filters">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="fiction">Fiction</button>
+        <button class="filter-btn" data-category="nonfiction">Non-Fiction</button>
+      </div>
+      <div class="book-grid">
+        <div class="book-card" data-category="fiction">
+          <img src="images/book1.jpg" alt="Fiction Book">
+          <h3>Fiction Title</h3>
+          <p>Author Name</p>
+        </div>
+        <div class="book-card" data-category="nonfiction">
+          <img src="images/book2.jpg" alt="Non-Fiction Book">
+          <h3>Non-Fiction Title</h3>
+          <p>Author Name</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+    <p>&copy; 2025 LitShelf. All rights reserved.</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
