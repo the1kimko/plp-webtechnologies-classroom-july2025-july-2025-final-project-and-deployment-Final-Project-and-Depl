@@ -13,7 +13,7 @@ To provide a platform for users to browse books, learn about the store, and cont
 - **Gallery**: Event image gallery.
 
 ## Live URL
-[Visit LitShelf]()
+[Visit LitShelf](https://lishelf.netlify.app/)
 
 ## Setup
 1. Clone the repository: `git clone https://github.com/username/litshelf.git`
@@ -21,4 +21,3 @@ To provide a platform for users to browse books, learn about the store, and cont
 
 ## Technologies
 - HTML5, CSS3, JavaScript
-- Deployed via Netlify
